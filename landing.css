@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(3, 3, 49);
+    color: rgb(217, 245, 235);
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: 50px;
+    border-color: lightblue;
+    
+}
+section, form{
+    text-align: center;
+}
+
+.paragraphs{
+    
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.p1, .signup{
+    margin-top: 5em;
+}
+.p2, .p3, .p4, .p5, .sign-form, .submitBtn{
+    margin-top: 3em;
+}
+
+.submitBtn{
+  background-color: darkorange;
+  border-radius: 12px;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2em;
+}
+input[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
